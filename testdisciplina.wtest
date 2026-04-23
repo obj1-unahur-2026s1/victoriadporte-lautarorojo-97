@@ -1,0 +1,9 @@
+import disciplina.*
+
+
+describe "test de los metodos polimorfico de las disciplinas"{
+    test" El presupuesto de tenis es inicialmente 215"{
+        assert.equals(215,tenis.presupuesto())
+    }
+}
+
